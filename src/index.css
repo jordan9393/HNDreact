@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+    background-color: #A6E1FA; /* Adjust the background color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+}
