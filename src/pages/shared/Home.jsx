@@ -2,9 +2,9 @@ import React from "react";
 
 const Home = () => {
     return(
-        <>
-            <h1 className="text-3xl font-bold underline">Home</h1>
-        </>
+        <div className="flex flex-col align-center">
+            <img src="https://png.pngtree.com/illustrations/20190321/ourlarge/pngtree-hospital-doctors-patient-cartoon-png-image_32768.jpg" alt="" />
+        </div>
     )
 }
 
